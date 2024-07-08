@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 8B Website</title>
+    <link href="app.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Class 8 &bull; B Bulletin</h1>
+  <h2>Today's Homework - 8 July 2024</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Homework</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="subjectHeader">Math &bull; A</td>
+          <td id="mathA">Cell</td>
+      </tr>
+      <tr>
+        <td class="subjectHeader">Math &bull; B<B></B></td>
+        <td id="mathB">Cell</td>
+      </tr>
+      <tr>
+        <td class="subjectHeader">Subject 1</td>
+        <td id="sub1">Cell</td>
+      </tr>
+      <tr>
+        <td class="subjectHeader">Subject 2</td>
+        <td id="sub2">Cell</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p id="watermark">Made with ❤️ by Shaurya</p>
+</body>
+<script>
+  var mathA = 'Ex 2.1, Questions 1,2,3<br/>CDF Points (Factorisation) 1,2,3'
+  var mathB = 'No Homework'
+  var sub1 = '<strong>Physics</strong><br/> CDF Points (Electric Current & Its Effects) 2-10'
+  var sub2 = 'No Homework'
+  document.getElementById('mathA').innerHTML = mathA
+  document.getElementById('mathB').innerHTML = mathB
+  document.getElementById('sub1').innerHTML = sub1
+  document.getElementById('sub2').innerHTML = sub2
+</script>
+</html>
